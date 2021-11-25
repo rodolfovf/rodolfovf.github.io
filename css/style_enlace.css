@@ -1,0 +1,154 @@
+@charset "utf-8";
+header {
+    background-color: #F25D5D;
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+header, nav, main ,footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+*  {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    background-color: #D567FF;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: medium double #000000;
+}
+
+
+main {
+    background-color: #924FFF;
+    padding: 50px;
+    color: #FFFFFF;
+}
+footer {
+    height: 80px;
+    background-color: #F25D5D;
+}
+footer h5 {
+    color: #FFFFFF;
+    font-size: 24px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    left: 50%;
+    padding-top: 25px;
+}
+
+
+
+
+nav {
+    height: auto;
+    background-color: #FF5E39;
+}
+body nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-left: 250px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    color: #F8F8F8;
+    font-weight: bolder;
+}
+#video_1 {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+a{
+	text-decoration: none;
+}
+a:link{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+a:hover   {
+    color: #D9FF31;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:visited{
+	color:#F25EB0;
+	font-weight: bolder;
+}
+#Enlace2 {
+}
+#Enlace3 {
+}
+#Enlace4 {
+}
+#Enlace2 {
+}
+main section h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#picture1 {
+    float: right;
+}
+.margin_1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.opcidad {
+    opacity: 0.55;
+}
+.opacida2 {
+    opacity: 0.1;
+}
+.escaladgrises {
+    filter: grayscale(100%);
+}
+.efectodoopler {
+    filter: blur(5px);
+}
+.sepia {
+    filter: sepia(100%);
+}
+section section h2 {
+}
+input[type=text]{
+	width: 80%;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #E4E4E4;
+	color: aliceblue;
+	border:none;
+}
+input[type=text]:focus{
+	background-color: aliceblue;
+	color: cadetblue;
+	border:3px solid #AFAFF3;
+}
+input[type=button],input[type=submit]{
+	background-color: #4C4C93;
+	color:white;
+	margin:10px;
+	padding:10px 0 ;
+	border-radius: 20px; 
+	
+}

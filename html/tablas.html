@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tablas en html</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		h1{
+			color: white;
+			font-size: 50px;
+		}
+		h2{
+			color:black;
+			font-size:32px;
+			padding: 15px;
+			text-align:center;
+		}
+		header,footer,main,nav{
+			width: 1024px;
+			margin: 0 auto;/*centra la caja automaticamente en horizontal*/
+			
+		}
+		header,footer{
+			height: 100px;
+			padding: 20px;	
+			text-align: center;
+			background-color: #021e34;
+		}
+		nav{
+			height: 10px;
+			padding: 20px;
+			background-color: #ec5489;
+		}
+		main{
+			height: auto;
+			background-color: #fabc28;
+			padding: 20px;
+		}
+		section{
+			background-color: ;
+			margin: 30px;
+			padding: 20px;
+			border: solid 5px #2a2642;
+		}
+		p{
+			padding: 10px;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		td,th{
+			padding:20px;
+		}
+		th{
+			text-align: left;
+/*			background-color: rebeccapurple;
+*/			color:#e2d5d0;
+		}
+		td{
+/*			background-color: coral;
+*/			color:#e2d5d0;
+		}
+		#t01{
+			border:double 4px #58FF2F;
+		}
+		#t01 th{
+			background-color: #FF90DF;
+		}
+		#t01 td{
+			background-color: hsla(341,100%,65%,1.00);
+		}
+			}
+		#t02 th,#t02 td{
+			padding: 15px;
+			text align: left;
+		}
+		#t02 th{
+			background-color: purple;
+		}
+		#t02 tr:nth-child(even){
+			background-color: #FF510E;
+		}
+		#t02 tr:nth-child(odd){
+			background-color: #48FF57;
+		}
+		.tabla th{
+			background-color: red; 
+		}
+		.tabla td{
+			background-color: orangered;
+		}
+		.tabla td:hover {
+			background-color: blue;
+		}
+	</style>
+	<link href="../css/style_enlace.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+	 <h1>Tablas html</h1>
+	</header>
+	<nav>
+	<ul>
+			    <li><a href="animación.html">Animación</a></li>
+				<li><a href="Musica.html">Audio</a></li> 
+				<li><a href="Dia de muertos 30 min.html">Dia de Muertos</a></li> 
+				<li><a href="enlaces.html">Enlaces</a></li>
+				<li><a href="Flexboox.html">Flexbox</a></li>
+				<li><a href="formularios.html">Formularios</a></li>
+				<li><a href="Cuestionario 02.html">Formularios Tarea</a></li>
+				<li><a href="imagenes.html">Imagenes</a></li>
+				<li><a href="listas.html">Listas</a></li>
+				<li><a href="Media query.html">Media Queries</a></li>
+				<li><a href="Mi_primera_pagina.html">Mi primera página</a></li>
+		  <li><a href="tablas.html">Tablas</a></li>
+		  <li><a href="video.html">Video</a></li>
+			</ul>
+	</nav>
+	<main>
+		<section>
+		<h2>Tabla simple</h2>
+	
+			<table class="tabla" border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Email</th>
+						<th>Telefonos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Daniel Vazquez</td>
+						<td>dany.vazquez@gmial.com</td>
+						<td>2226556813</td>
+					</tr>
+					<tr>
+						<td>Maria Guadalupe</td>
+						<td>lupira@gmail.com</td>
+						<td>2225645123</td>
+					</tr>
+					<tr>
+						<td>Juan Esquivel</td>
+						<td>juan@gmail.com</td>
+						<td>2223234561</td>
+					</tr>
+					<tr>
+						<td>Rodolfo Perez</td>
+						<td>rodolfo@gmail.com</td>
+						<td>2222476646</td>
+					</tr>
+					<tr>
+						<td>Yaret lopez</td>
+						<td>yaret@gmail.com</td>
+						<td>2456646321</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+</section>
+		<section>
+			<h2>Tabla con celda que abarca dos columnas</h2>
+			<table class="tabla" border="1">
+				<thead>
+					<tr>
+					 <th>Nombre</th>
+					 <th colspan="2">Telefonos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Georgina Lopez</td>
+						<td>2222332456</td>
+						<td>2234561123</td>
+					</tr>
+					<tr>
+						<td>Hector Veraldo</td>
+						<td>5554561231</td>
+						<td>5554654621</td>
+					</tr>
+					<tr>
+						<td>Mercedez Ozorio</td>
+						<td>9586231123</td>
+						<td>9581531212</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+			<h2>Tabla modificada a partir de regas css</h2>
+			<table width="200" border="1" id="t01">
+  <tbody>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">Edad</th>
+    </tr>
+    <tr>
+      <td>Maria</td>
+      <td>Flores Jimenez</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Jose Manuel</td>
+      <td>Perez lopez</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>Oropeza</td>
+      <td>Lechuga Gonzales</td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table>
+
+		</section>
+		<section>
+		  <table id="t02" border="1">
+		    <thead>
+		      <tr>
+		        <th>Nombre</th>
+		        <th>Email</th>
+		        <th>Telefonos</th>
+	          </tr>
+	        </thead>
+		    <tbody>
+		      <tr>
+		        <td>Daniel Vazquez</td>
+		        <td>dany.vazquez@gmial.com</td>
+		        <td>2226556813</td>
+	          </tr>
+		      <tr>
+		        <td>Maria Guadalupe</td>
+		        <td>lupira@gmail.com</td>
+		        <td>2225645123</td>
+	          </tr>
+		      <tr>
+		        <td>Juan Esquivel</td>
+		        <td>juan@gmail.com</td>
+		        <td>2223234561</td>
+	          </tr>
+		      <tr>
+		        <td>Rodolfo Perez</td>
+		        <td>rodolfo@gmail.com</td>
+		        <td>2222476646</td>
+	          </tr>
+		      <tr>
+		        <td>Yaret lopez</td>
+		        <td>yaret@gmail.com</td>
+		        <td>2456646321</td>
+	          </tr>
+	        </tbody>
+		    <tfoot>
+	        </tfoot>
+	      </table>
+		
+		</section>
+		<section>
+		<table  class="tabla" width="500" border="1">
+<thead>
+	<tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Genero</th>
+      <th>Deporte</th>
+    </tr>
+</thead>
+  <tbody>
+    <tr>
+      <td>Maria Lopez</td>
+      <td>15</td>
+      <td>Femenino</td>
+      <td>Futbol</td>
+    </tr>
+    <tr>
+      <td>Gabriela Hernandez</td>
+      <td>12</td>
+      <td>Femenino</td>
+      <td>Basquetbol</td>
+    </tr>
+    <tr>
+      <td>Juan Becerra</td>
+      <td>11</td>
+      <td>Masculino</td>
+      <td>Voleibol</td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
+</section>
+	</main>
+	<footer style="color: #FFFFFF; font-size: 2;text-align: center;">Elaborado por: Rodolfo Valenzuela Flores</footer>
+</body>
+</html>

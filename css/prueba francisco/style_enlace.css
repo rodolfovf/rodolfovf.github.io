@@ -1,0 +1,176 @@
+@charset "utf-8";
+header {
+    background-color: #F25EB0;
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+header, nav, main ,footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+*  {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    background-color: #F2C2D4;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: medium double #63F2F2;
+}
+#section_1 p {
+}
+
+
+
+main {
+    background-color: #F2889B;
+    padding: 50px;
+    color: #FFFFFF;
+}
+footer {
+    height: 80px;
+    background-color: #F25EB0;
+}
+footer h5 {
+    color: #FFFFFF;
+    font-size: 24px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    left: 50%;
+    padding-top: 25px;
+}
+
+
+
+
+nav {
+    height: auto;
+    background-color: #63F2F2;
+}
+body nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-top: 0%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    color: #F8F8F8;
+    font-weight: bolder;
+    top: auto;
+}
+
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color:#3DC9D9;
+	font-weight: bolder;
+}
+a:hover   {
+    color: #D9FF31;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:visited{
+	color:#F25EB0;
+	font-weight: bolder;
+}
+#Enlace2 {
+}
+#Enlace3 {
+}
+#Enlace4 {
+}
+#Enlace2 {
+}
+main section h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #F25EB0;
+}
+main section img {
+    width: 30%;
+    height: 30%;
+}
+#imagen1 {
+    margin: 10 px;
+    float: left;
+}
+
+
+img{
+    width: 30%;
+    margin-top: 10px;
+    margin-buttom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.margin1 {
+    margin: 10px;
+}
+
+#imagen1 {
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+    opacity: 0.5;
+}
+.opacidad1 {
+}
+
+#section_1 {
+}
+.margin1 {
+}
+.opacidad1 {
+    opacity: 0.5;
+}
+.opacidad2 {
+    opacity: 0.25;
+}
+.grises {
+    filter: grayscale(100%);
+}
+.desenfoque {
+    filter: blur(5px);
+}
+.brillo {
+    filter: brightness(30%);
+}
+.contraste {
+    filter: contrast(200%);
+}
+.saturacion {
+    filter: saturate(20%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+.invertir {
+    filter: invert(100%);
+}
+.rotacion {
+    filter: hue-rotate(90deg);
+}

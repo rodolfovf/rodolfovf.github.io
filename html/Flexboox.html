@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flexboox</title>
+	<style>
+		.box-conteiner-flex{
+			background-color: cyan;
+			display: flex;
+			margin: 10px 0;
+		}
+		.box-conteiner-flex >div,.box-conteiner-flex-2 >div,.box-conteiner-flex-3 >div,.box-conteiner-flex-4 >div,.box-conteiner-flex-5 >div, .box-conteiner-flex-6>div, .box-conteiner-flex-7>div  {
+			width: 400px;
+			background-color: #D1CECE;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		.box-conteiner-flex-3{
+			width: 300px;
+		}
+		.box-conteiner-flex-5>div {
+			margin: 5px;
+			padding: 
+		}
+		.box-conteiner-flex-2{
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+		}
+		.box-conteiner-flex-3{
+			background-color: orange;
+			display: flex;
+			flex-wrap:wrap;
+		}
+		.box-conteiner-flex-4{
+			background-color: orange;
+			display: flex;
+			justify-content: center;
+		}
+		.box-conteiner-flex-5{
+			background-color: orange;
+			display: flex;
+			height: 400px;
+			align-items: flex-start;
+		}
+		.box-conteiner-flex-6{
+			background-color: orange;
+			display: flex;
+			height: 400px;
+			flex-wrap: wrap;
+			align-content:stretch;
+		}
+		.box-conteiner-flex-7{
+			background-color: orange;
+			display: flex;
+			height: 400px;
+			justify-content: center;
+			align-items: center;
+			
+		}
+	</style>
+</head>
+
+<body>
+	<header>Flexbox</header>
+	<nav></nav>
+<main>
+	<section>
+		<h2>Flexboox</h2>
+  <div class="box-conteiner-flex">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+		</div>
+		</section>
+	<section>
+	<h2>Flexboox:Uso de propuedad column</h2>
+		<div class="box-conteiner-flex-2">
+		  <div>1</div>
+		  <div>2</div>
+		  <div>3</div>
+		  <div>4</div>
+		  <div>5</div>
+  </div>
+		</section>
+	<section>
+	<h2>Flexboox:Uso de flex</h2>
+		<div class="box-conteiner-flex-3">
+		  <div>1</div>
+		  <div>2</div>
+		  <div>3</div>
+		  <div>4</div>
+		  <div>5</div>
+		  <div>6</div>
+		  <div>7</div>
+		  <div>8</div>
+		  <div>9</div>
+		  <div>10</div>
+  </div>
+		</section>
+	<section>
+	<h2>Flexboox:Uso prpiedad justyfy-content:cener,text-start,text-end, arround,betwen</h2>
+		<div class="box-conteiner-flex-4">
+		  <div>1</div>
+		  <div>2</div>
+		  <div>3</div>
+		  <div>4</div>
+  </div>
+		</section>
+	<section>
+	<h2>Flexboox:Uso propiedad align-items:center,flex-start,flex-end,strech</h2>
+		<div class="box-conteiner-flex-5">
+		  <div>1</div>
+		  <div>2</div>
+		  <div>3</div>
+		  <div>4</div>
+  </div>
+		</section>
+	<section>
+	<h2>Flexboox:Uso propiedad align-content: space-betwen, space-around</h2>
+		<div class="box-conteiner-flex-6">
+		  <div>1</div>
+		  <div>2</div>
+		  <div>3</div>
+		  <div>4</div>
+		  <div>5</div>
+		  <div>6</div>
+		  <div>7</div>
+		  <div>8</div>
+  </div>
+		</section>
+		<section>
+	<h2>Flexboox:Uso propiedad centrado y horizontal</h2>
+		<div class="box-conteiner-flex-7">
+		  <div>contenido</div>
+		  
+  </div>
+		</section>
+  </main>
+	<footer></footer>
+</body>
+</html>

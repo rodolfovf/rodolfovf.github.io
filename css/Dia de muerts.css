@@ -1,0 +1,137 @@
+@charset "utf-8";
+header {
+    background-color: #D92A1A;
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+header, nav, main ,footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    background-color: #152126;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+main {
+    background-color: #F26513;
+    padding: 50px;
+    color: #FFFFFF;
+}
+footer {
+    height: 40px;
+    background-color: #F2A20C;
+	color: #FFFFFF;
+    font-size: 20px;
+	box-sizing: content-box;
+    text-align: center;
+    left: 50%;
+    padding-top: 25px;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	
+}
+footer h5 {
+    color: #FFFFFF;
+    font-size: 24px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: right;
+    left: 50%;
+    padding-top: 25px;
+}
+nav {
+    height: auto;
+    background-color: #FF5E39;
+}
+h1{
+	font-size: 100px;
+	font-family: 'Great Vibes', cursive;
+	color: black;
+}
+h2{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	padding: 15px;
+}
+h3{
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+	font-family: arial;
+	
+}
+h5{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	
+}
+p{
+	font-size: 15px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding: 50px;
+}
+img{
+	width: 100%;
+    height: auto;
+	padding: 50px;
+}
+body nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-left: 250px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    color: #F8F8F8;
+    font-weight: bolder;
+}
+li{
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+
+}
+a{
+	text-decoration: none;
+}
+a:link{
+    color: black;
+    font-weight: bolder;
+}
+a:hover   {
+    color: #D9FF31;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:visited{
+	color: black;
+	font-weight: bolder;
+}
+iframe{
+	padding: 20px;
+}
